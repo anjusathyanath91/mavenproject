@@ -6,7 +6,7 @@ public class ArrayIndexException {
 
 		try {
 			int a[] = new int[2];
-			a[3] = 30;
+			a[3] = 10;
 		}
 
 		catch (ArrayIndexOutOfBoundsException e) {
